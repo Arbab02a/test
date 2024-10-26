@@ -27,10 +27,10 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 mx-auto">
             <NavLink to="/" className="text-white hover:text-blue-500">Home</NavLink>
-            <Link to="/About" className="text-white hover:text-blue-500">About</Link>
-            <Link to="/Services" className="text-white hover:text-blue-500">Services</Link>
-            <Link to="/Portfolio" className="text-white hover:text-blue-500">Portfolio</Link>
-            <Link to="/Contact" className="text-white hover:text-blue-500">Contact</Link>
+            <Link to="/about" className="text-white hover:text-blue-500">About</Link>
+            <Link to="/services" className="text-white hover:text-blue-500">Services</Link>
+            <Link to="/portfolio" className="text-white hover:text-blue-500">Portfolio</Link>
+            <Link to="/contact" className="text-white hover:text-blue-500">Contact</Link>
           </div>
 
           <div className="hidden md:flex space-x-8">
